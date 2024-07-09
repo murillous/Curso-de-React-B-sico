@@ -1,0 +1,7 @@
+no external, criamos normalmente um css e temos que chama-lo no main.jsx ou escrever o css no index.css
+
+no modulo, criamos uma pasta e colocamos nossa aplicação e o css com a terminação ".module.css"
+em seguinda na aplicação importamos o css "import styles from './nome.module.css'"
+"styles" pode ser qualquer outro nome e usamos ele no className onde queremos atribuir o css com {}
+
+no inline, criamos na aplicação uma variavel de objetos e colocamos os códigos lá e atribuimos no style={}

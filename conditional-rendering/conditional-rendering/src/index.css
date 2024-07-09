@@ -1,0 +1,17 @@
+.bemVindo{
+  background-color: hsl(220, 59%, 41%);
+  width: 30%;
+  border-radius: 5px;
+  font-family: monospace;
+  color: hsl(0, 0%, 100%);
+  box-shadow: 3px 3px 10px black;
+ 
+}
+.log{
+  background-color: hsl(0, 59%, 41%);
+  width: 30%;
+  border-radius: 5px;
+  font-family: monospace;
+  color: hsl(0, 0%, 100%);
+  box-shadow: 3px 3px 10px black;
+}

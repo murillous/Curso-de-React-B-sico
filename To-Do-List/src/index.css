@@ -1,0 +1,79 @@
+.to_do_list_container{
+  text-align: center;
+  margin-top: 10%;
+}
+body{
+  background-color: hsla(0, 0%, 0%, 0.75);
+  font-family: monospace;
+}
+h1{
+  color: hsl(0, 0%, 100%);
+  font-size: 3em
+}
+input[type="text"]{
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  font-family: monospace;
+}
+.addButton{
+  padding: 10px 15px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  font-family: monospace;
+  background-color: rgb(1, 189, 1);
+  color: white;
+}
+.addButton:hover{
+  background-color: rgba(0, 115, 0, 0.775);
+}
+li button{
+  margin-left: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.deleteButton{
+  background-color: hsl(0, 100%, 50%);
+  font-family: monospace;
+  color: hsl(0, 0%, 100%);
+}
+.deleteButton:hover{
+  background-color: hsla(0, 100%, 30%, 0.775);
+}
+.moveButton{
+  background-color: rgb(76, 76, 231);
+}
+.moveButton:hover{
+  background-color: rgb(42, 42, 125);
+}
+button:hover{
+  transition: 0.2s;
+}
+ol{
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 80%;
+  font-weight: bold;
+}
+li:hover{
+  background-color: hsla(0, 0%, 100%, 0.775);
+  transition: 0.2s;
+}
+.Text{
+  font-size: 1.7em;
+  flex: 1;
+  
+}

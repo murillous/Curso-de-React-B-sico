@@ -1,0 +1,39 @@
+.card{
+  border: 1px solid hsl(0, 0%, 84%);
+  border-radius: 10px;
+  max-width: 250px;
+  font-family: monospace;
+  box-shadow: 3px 3px 10px hsla(0, 0%, 0%, 0.122);
+  padding: 20px;
+  margin: 10px;
+  text-align:center;
+  display: inline-block;
+}
+.card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+.card--text-color{
+  color: hsla(0, 0%, 0%, 0.581)
+}
+.luluzinha{
+  background-color: hsl(350, 100%, 88%);
+  border: 1px solid hsl(350, 95%, 93%);
+  border-radius: 10px;
+  max-width: 250px;
+  font-family: monospace;
+  box-shadow: 3px 3px 10px hsla(0, 0%, 0%, 0.122);
+  padding: 20px;
+  margin: 10px;
+  text-align:center;
+  display: inline-block;
+}
+.card3{
+  border: none;
+  width: 250px;
+  height: 230px;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+}
